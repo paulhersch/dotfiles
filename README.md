@@ -4,6 +4,6 @@ Dotfiles for my LeftWM setup, requires some hacking on polybar (set the monitors
 
 Dependencies (incomplete, open an issue if something is missing):
 
-AUR packages:`apple-fonts`,`leftwm-git`,`ttf-weather-icons`,`ntfd`
+AUR packages:`apple-fonts`,`leftwm-git`,`ttf-weather-icons`,`ntfd`,`volctl`
 
-Repo packages (manjaro): `nerd-fonts-noto-sans-mono`,`polybar`,`rofi`,`nitrogen`,`dunst`,`lxsession`,`alacritty`,`firefox`(for dunst on click events) 
+Repo packages (manjaro): `nerd-fonts-noto-sans-mono`,`polybar`,`rofi`,`nitrogen`,`dunst`,`lxsession`,`alacritty`,`firefox`(for dunst on click events),`caffeine`
