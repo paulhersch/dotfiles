@@ -1,0 +1,132 @@
+
+[global]
+    monitor = 0
+
+    follow = keyboard
+
+    geometry = "0x5-30+20"
+
+    progress_bar = false
+
+    indicate_hidden = yes
+
+    shrink = no
+
+    transparency = 0
+
+    notification_height = 0
+
+    separator_height = 2
+
+    padding = 8
+
+    horizontal_padding = 8
+
+    text_icon_padding = 0
+
+    frame_width = 1
+
+    frame_color = #FFFFFF
+    
+    separator_color = frame
+
+    sort = yes
+
+    idle_threshold = 120
+
+    ### Text ###
+
+    font = SF Compact Rounded 11
+
+    line_height = 0
+
+    markup = full
+
+    format = "<b>%s</b>\n%b"
+
+    alignment = left
+
+    vertical_alignment = center
+
+    show_age_threshold = 60
+
+    word_wrap = yes
+
+    ellipsize = middle
+
+    ignore_newline = no
+
+    stack_duplicates = true
+
+    hide_duplicate_count = false
+
+    show_indicators = yes
+
+    icon_position = off
+
+    min_icon_size = 0
+
+    max_icon_size = 32
+
+    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+
+    ### History ###
+
+    sticky_history = yes
+
+    history_length = 20
+
+    ### Misc/Advanced ###
+
+    dmenu = /usr/bin/rofi -show -dmenu -p dunst:
+
+    browser = /usr/bin/firefox -new-tab
+
+    always_run_script = true
+
+    title = Dunst
+
+    class = Dunst
+
+    startup_notification = false
+
+    verbosity = mesg
+
+    corner_radius = 10
+
+    ignore_dbusclose = false
+
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+# Experimental features that may or may not work correctly. Do not expect them
+# to have a consistent behaviour across releases.
+[experimental]
+    # Calculate the dpi to use on a per-monitor basis.
+    # If this setting is enabled the Xft.dpi value will be ignored and instead
+    # dunst will attempt to calculate an appropriate dpi value for each monitor
+    # using the resolution and physical size. This might be useful in setups
+    # where there are multiple screens with very different dpi values.
+    per_monitor_dpi = false
+
+# The internal keyboard shortcut support in dunst is now considered deprecated
+# and should be replaced by dunstctl calls. You can use the configuration of your
+# WM or DE to bind these to shortcuts of your choice.
+# Check the dunstctl manual page for more info.
+
+[urgency_low]
+    background = "#2E3440"
+    foreground = "#ECEFF4"
+    timeout = 5
+
+[urgency_normal]
+    background = "#2E3440"
+    foreground = "#ECEFF4"
+    timeout = 5
+
+[urgency_critical]
+    background = "#D08770"
+    foreground = "#ECEFF4"
+    frame_color = "#ECEFF4"
+    timeout = 0
