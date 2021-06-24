@@ -1,5 +1,0 @@
-#!/usr/bin/sh
-pkill polybar
-
-polybar -c ~/.config/leftwm/themes/current/polybar.config main 2>&1 | tee -a /tmp/polybar.log &disown
-polybar -c ~/.config/leftwm/themes/current/polybar.config secondary 2>&1 | tee -a /tmp/polybar.log &disown

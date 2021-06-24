@@ -20,7 +20,7 @@ nitrogen --set-zoom-fill $SCRIPTPATH/background.jpg
 
 ntfd &
 #polybar -c $SCRIPTPATH/polybar.config main &> /dev/null &
-$SCRIPTPATH/polylaunch
+$SCRIPTPATH/polybar/polylaunch
 
 #autostart
 dunst &

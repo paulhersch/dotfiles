@@ -29,7 +29,7 @@ key = "Print"
 
 [[keybind]]
 command = "Execute"
-value = "~/.config/leftwm/themes/current/polylaunch"
+value = "~/.config/leftwm/themes/current/polybar/polylaunch"
 modifier = ["modkey", "Shift"]
 key = "p"
 
