@@ -1,7 +1,5 @@
-export PATH=$PATH:$HOME/.cargo/bin/:$HOME/NonSteamGames
+export PATH=$PATH:$HOME/.cargo/bin/
 
-# Use powerline
-#USE_POWERLINE="true"
 # Source manjaro-zsh-configuration
 if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
   source /usr/share/zsh/manjaro-zsh-config
@@ -13,15 +11,10 @@ fi
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-#eigener prompt
-#PROMPT='%~ > '
-
-
 #
 #	aliases
 #
 
-alias ls='ls --color=auto'
 alias cl='clear'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 

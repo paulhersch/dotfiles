@@ -23,7 +23,7 @@ key = "space"
 
 [[keybind]]
 command = "Execute"
-value = "~/.config/i3/scrot.sh"
+value = "~/.config/scrot.sh"
 modifier = []
 key = "Print"
 
