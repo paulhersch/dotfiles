@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "UnloadTheme" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+
+pkill picom 
+pkill polybar
+pkill volctl
+pkill caffeine
+pkill nm-applet
+pkill blueman-applet
+pkill pamac-tray
