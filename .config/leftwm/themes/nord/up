@@ -15,8 +15,8 @@ picom &> /dev/null &
 echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 #background 
-#nitrogen --set-zoom-fill $SCRIPTPATH/nord-combi.png
-nitrogen --restore 
+nitrogen --set-zoom-fill $SCRIPTPATH/background.jpg
+#nitrogen --restore 
 
 ntfd &
 #polybar -c $SCRIPTPATH/polybar.config main &> /dev/null &
