@@ -2,7 +2,8 @@ Dotfiles for my LeftWM setup, requires some hacking on polybar (set the monitors
 
 ![screenshot](https://user-images.githubusercontent.com/74120050/123242057-f2baf180-d4e1-11eb-9e07-a5e3cf571ca8.png)
 
-Dependencies (incomplete, open an issue if something is missing):
+# Dependencies 
+*(probably incomplete, open an issue if something is missing):*
 
 AUR packages:`apple-fonts`,`leftwm-git`,`ttf-weather-icons`,`ntfd`,`volctl`,`nerd-fonts-jetbrains-mono`
 
