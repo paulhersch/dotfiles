@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LeftWM Session
+Comment=A window manager for the adventurer
+Exec=lxsession -s leftwm -e leftwm
+Type=Application
