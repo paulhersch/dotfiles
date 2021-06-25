@@ -167,16 +167,24 @@ generate_window_list() {
       case "$cls" in
       Alacritty) w_name='' ;;
       Chromium) w_name='' ;;
-      TelegramDesktop) w_name=' ' ;;
-      Pcmanfm) w_name='' ;;
-      obs) w_name='' ;;
-      Nm-connection-editor) w_name='';;
+      TelegramDesktop) w_name='' ;;
+      Nm-connection-editor) w_name='';;
+      csgo_linux64) w_name='';;
+#      Pcmanfm) w_name='';; #didn't find an icon that works yet
+      vlc) w_name='';;
       qpdfview) w_name='';;
       Spotify) w_name='';; 
-      firefox) w_name='';;
-      KeePassXC) w_name='';;
-      Steam) w_name='';;
-      Signal) w_name='';;
+      firefox) w_name='';;
+      KeePassXC) w_name='';;
+      Steam) w_name='';;
+      TeamSpeak) w_name='';;
+      Signal) w_name='';;
+      Mousepad) w_name='';;
+      Discord) w_name='';;
+      lightcord) w_name='';;
+      jetbrains-idea-ce) w_name='';;
+      Blueman-manager) w_name='';;
+      Pamac-manager) w_name='';;
       *) w_name="$cls";;
       esac
       ;;
