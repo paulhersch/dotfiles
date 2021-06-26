@@ -168,13 +168,18 @@ generate_window_list() {
       Alacritty) w_name='' ;;
       Chromium) w_name='' ;;
       TelegramDesktop) w_name='' ;;
+      Thunderbird) w_name='';;
+      kwalletmanager5) w_name='';;
+      kwalletd5) w_name='';;
+      libreoffice-writer) w_name='';;
       Nm-connection-editor) w_name='';;
       csgo_linux64) w_name='';;
-#      Pcmanfm) w_name='';; #didn't find an icon that works yet
+      Pcmanfm) w_name='';;
       vlc) w_name='';;
       qpdfview) w_name='';;
       Spotify) w_name='';; 
-      firefox) w_name='';;
+      spotify-qt) w_name='';; 
+      firefox) w_name='';;
       KeePassXC) w_name='';;
       Steam) w_name='';;
       TeamSpeak) w_name='';;
@@ -185,6 +190,7 @@ generate_window_list() {
       jetbrains-idea-ce) w_name='';;
       Blueman-manager) w_name='';;
       Pamac-manager) w_name='';;
+      Arandr) w_name='';;
       *) w_name="$cls";;
       esac
       ;;
