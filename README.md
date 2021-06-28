@@ -10,4 +10,5 @@ AUR packages:`apple-fonts`,`leftwm-git`,`ttf-weather-icons`,`ntfd`,`volctl`,`ner
 Repo packages (manjaro): `nerd-fonts-noto-sans-mono`,`polybar`,`rofi`,`nitrogen`,`dunst`,`lxsession`,`alacritty`,`firefox`(for dunst on click events),`caffeine`,`wmctrl`
 
 The alacritty nord theme used can be obtained from https://github.com/arcticicestudio/nord-alacritty
+
 The Taskbarlike icon/name display is blatantly copied and modified from https://github.com/Mangeshrex/Bspdots
