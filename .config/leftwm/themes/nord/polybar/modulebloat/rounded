@@ -1,0 +1,58 @@
+[module/round-left]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.bgsolid}
+content-padding=0
+
+[module/round-left-gray]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.graydark}
+content-background = ${colors.bgsolid}
+content-padding=0
+
+[module/round-left-gray-end]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.graydark}
+content-padding=0
+
+[module/round-left-light]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.gray}
+content-background = ${colors.graydark}
+content-padding=0
+
+[module/round-right]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.bgsolid}
+content-padding=0
+
+[module/round-right-gray]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.graydark}
+content-background = ${colors.bgsolid}
+content-padding=0
+
+[module/round-right-light-end]
+type = custom/text
+
+content-font = 3
+content = 
+content-foreground = ${colors.gray}
+content-padding=0
