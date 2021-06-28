@@ -1,4 +1,4 @@
-Dotfiles for my LeftWM setup, requires some hacking on polybar (set the monitors to my outputs), rofi config copied from https://github.com/adi1090x/rofi
+Dotfiles for my LeftWM setup, requires some hacking on polybar (set the monitors to my outputs) 
 
 ![24 22:16:51-scrot](https://user-images.githubusercontent.com/74120050/123326824-fa0de980-d539-11eb-8943-535bfb8bcccc.png)
 
@@ -11,4 +11,6 @@ Repo packages (manjaro): `nerd-fonts-noto-sans-mono`,`polybar`,`rofi`,`nitrogen`
 
 The alacritty nord theme used can be obtained from https://github.com/arcticicestudio/nord-alacritty
 
-The Taskbarlike icon/name display is blatantly copied and modified from https://github.com/Mangeshrex/Bspdots
+Taskbarlike icon/name display is blatantly copied and modified from https://github.com/Mangeshrex/Bspdots
+
+Rofi config blatantly copied from https://github.com/adi1090x/rofi
