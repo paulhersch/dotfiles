@@ -70,13 +70,13 @@ key = "F3"
 
 [[keybind]]
 command = "Execute"
-value = "rofi -no-lazy-grab -show"
+value = "rofi -no-lazy-grab -show drun -theme ~/.config/leftwm/themes/nord/rofi/startmenu.rasi"
 modifier = ["modkey"]
 key = "d"
 
 [[keybind]]
 command = "Execute"
-value = "alacritty" 
+value = "kitty" 
 modifier = ["modkey"]
 key = "Return"
 
@@ -128,7 +128,7 @@ key = "Up"
 [[keybind]]
 command = "FocusWindowDown"
 modifier = ["modkey"]
-key = "Tab"
+key = "Down"
 
 [[keybind]]
 command = "NextLayout"
