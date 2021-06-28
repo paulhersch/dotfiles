@@ -70,7 +70,7 @@ key = "F3"
 
 [[keybind]]
 command = "Execute"
-value = "rofi -no-lazy-grab -show drun -theme ~/.config/leftwm/themes/nord/rofi/startmenu.rasi"
+value = "rofi -no-lazy-grab -combi-modi drun,run -show combi -theme ~/.config/leftwm/themes/nord/rofi/startmenu.rasi"
 modifier = ["modkey"]
 key = "d"
 

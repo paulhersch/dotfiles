@@ -92,7 +92,7 @@
 
     verbosity = mesg
 
-    corner_radius = 10
+    corner_radius = 15
 
     ignore_dbusclose = false
 

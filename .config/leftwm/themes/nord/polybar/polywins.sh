@@ -117,6 +117,7 @@ generate_window_list() {
     "icon")
       case "$cls" in
       Alacritty) w_name='' ;;
+      kitty) w_name='' ;;
       Chromium) w_name='' ;;
       TelegramDesktop) w_name='' ;;
       Thunderbird) w_name='';;

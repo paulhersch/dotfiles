@@ -14,7 +14,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 #
 #	aliases
 #
-
+alias ls='ls --color=auto'
 alias cl='clear'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
