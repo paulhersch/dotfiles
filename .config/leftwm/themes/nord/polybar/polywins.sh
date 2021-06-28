@@ -136,9 +136,10 @@ generate_window_list() {
       Steam) w_name='';;
       TeamSpeak) w_name='';;
       Signal) w_name='';;
-      Mousepad) w_name='';;
+      Mousepad) w_name='';;
       Discord) w_name='';;
       lightcord) w_name='';;
+      Qalculate-gtk) w_name='';;
       jetbrains-idea-ce) w_name='';;
       Blueman-manager) w_name='';;
       Pamac-manager) w_name='';;
