@@ -11,7 +11,7 @@ window:
   history: 10000
 
   #Transparenz
-  background_opacity: 1
+background_opacity: 0.95
 
   #Schrift
 font:
