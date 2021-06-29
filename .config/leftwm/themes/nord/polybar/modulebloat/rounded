@@ -4,9 +4,14 @@ content-font = 3
 content = 
 content-padding=0
 
+[module/round-left-end]
+inherit = module/round-left-base
+content-foreground = ${colors.bgsolid}
+
 [module/round-left]
 inherit = module/round-left-base
 content-foreground = ${colors.bgsolid}
+content-background = ${colors.graydark}
 
 [module/round-left-gray]
 inherit = module/round-left-base
@@ -36,6 +41,10 @@ content-foreground = ${colors.bgsolid}
 inherit = module/round-right-base
 content-foreground = ${colors.graydark}
 content-background = ${colors.bgsolid}
+
+[module/round-right-gray-end]
+inherit = module/round-right-base
+content-foreground = ${colors.graydark}
 
 [module/round-right-light-end]
 inherit = module/round-right-base
