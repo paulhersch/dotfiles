@@ -49,3 +49,8 @@ content-foreground = ${colors.graydark}
 [module/round-right-light-end]
 inherit = module/round-right-base
 content-foreground = ${colors.gray}
+
+[module/round-right-light]
+inherit = module/round-right-base
+content-foreground = ${colors.gray}
+content-background = ${colors.graydark}

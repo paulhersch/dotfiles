@@ -6,6 +6,12 @@ layouts = ["Fibonacci", "CenterMain", "MainAndVertStack", "MainAndHorizontalStac
 disable_current_tag_swap = false
 
 [[keybind]]
+command = "Execute"
+value = "rofi -theme .config/leftwm/themes/current/rofi/windowswitcher.rasi -show window"
+modifier = ["modkey"]
+key = "Tab"
+
+[[keybind]]
 command = "ToggleFullScreen"
 modifier = ["modkey", "Shift"]
 key = "f"
