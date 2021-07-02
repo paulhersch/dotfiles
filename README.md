@@ -13,4 +13,4 @@ The alacritty nord theme used can be obtained from https://github.com/arcticices
 
 Taskbarlike icon/name display is blatantly copied and modified from https://github.com/Mangeshrex/Bspdots
 
-Rofi config blatantly copied from https://github.com/adi1090x/rofi
+Rofi configs blatantly copied and mildly modified from https://github.com/adi1090x/rofi

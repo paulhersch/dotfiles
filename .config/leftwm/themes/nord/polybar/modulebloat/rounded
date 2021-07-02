@@ -1,6 +1,6 @@
 [module/round-left-base]
 type = custom/text
-content-font = 3
+content-font = 6
 content = 
 content-padding=0
 
@@ -29,9 +29,9 @@ content-background = ${colors.graydark}
 
 [module/round-right-base]
 type = custom/text
-content-font = 3
+content-font = 6
 content = 
-content-padding=0
+content-padding=0.5
 
 [module/round-right]
 inherit = module/round-right-base

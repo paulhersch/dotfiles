@@ -120,10 +120,10 @@ generate_window_list() {
       kitty) w_name='' ;;
       Chromium) w_name='' ;;
       TelegramDesktop) w_name='' ;;
-      Thunderbird) w_name='';;
+      Thunderbird) w_name='';;
       kwalletmanager5) w_name='';;
       kwalletd5) w_name='';;
-      libreoffice-writer) w_name='';;
+      libreoffice-writer) w_name='';;
       Nm-connection-editor) w_name='';;
       csgo_linux64) w_name='';;
       Pcmanfm) w_name='';;
@@ -131,19 +131,23 @@ generate_window_list() {
       qpdfview) w_name='';;
       Spotify) w_name='';; 
       spotify-qt) w_name='';; 
-      firefox) w_name='';;
+      firefox) w_name='';;
       KeePassXC) w_name='';;
       Steam) w_name='';;
       TeamSpeak) w_name='';;
-      Signal) w_name='';;
+      Signal) w_name='';;
       Mousepad) w_name='';;
-      Discord) w_name='';;
+      discord) w_name='';;#idk if it matches with normal discord client, i use this for browser discord
       lightcord) w_name='';;
       Qalculate-gtk) w_name='';;
       jetbrains-idea-ce) w_name='';;
       Blueman-manager) w_name='';;
       Pamac-manager) w_name='';;
       Arandr) w_name='';;
+      #those additions are for my firefox profiles for these apps, dont want to run them in my normal browser
+      whatsapp) w_name='';;
+      youtube) w_name='';;
+      netflix) w_name='';;#not really netflix logo but there wasn't a netflix logo in FA5 Brands
       *) w_name="$cls";;
       esac
       ;;
