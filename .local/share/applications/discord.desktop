@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=WhatsApp Web
+StartupWMClass=whatsapp
+Comment=WhatsApp Web Messenger inside Firefox
+GenericName=Groupchats and Conferences
+Exec=firefox -P Discord --class=discord discord.com/channels/@me
+Icon=/home/paul/.local/share/applications/discord.png
+Type=Application
+Categories=Network;
+Name[de_DE]=Discord Firefox
+Comment[de_DE]=Discord in Firefox because the native App tends to hang

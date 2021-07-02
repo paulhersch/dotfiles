@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=WhatsApp Web
+StartupWMClass=whatsapp
+Comment=YouTube in its own profile
+GenericName=Internet Videos
+Exec=firefox -P YouTube --class=youtube https://www.youtube.de
+Icon=/home/paul/.local/share/applications/youtube.png
+Type=Application
+Categories=Network;
+Name[de_DE]=YouTube

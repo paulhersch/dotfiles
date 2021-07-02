@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WhatsApp Web
+StartupWMClass=whatsapp
+Comment=WhatsApp Web Messenger inside Firefox
+GenericName=Messenger App
+Exec=firefox -P WhatsApp --class=whatsapp https://web.whatsapp.com/
+Icon=/home/paul/.local/share/applications/whatsapp.png
+Type=Application
+Categories=Network;

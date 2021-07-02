@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=WhatsApp Web
+StartupWMClass=whatsapp
+Comment=Netflix in its own profile
+GenericName=Movies and Series
+Exec=firefox -P Netflix --class=netflix netflix.de
+Icon=/home/paul/.local/share/applications/netflix.png
+Type=Application
+Categories=Network;
+Name[de_DE]=Netflix
