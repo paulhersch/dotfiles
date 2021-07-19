@@ -144,6 +144,7 @@ generate_window_list() {
       Blueman-manager) w_name='';;
       Pamac-manager) w_name='';;
       Arandr) w_name='';;
+      Manjaro) w_name='';;
       #those additions are for my firefox profiles for these apps, dont want to run them in my normal browser
       whatsapp) w_name='';;
       youtube) w_name='';;

@@ -9,7 +9,7 @@ fi
 ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 #picom experimental
-picom &> /dev/null &
+picom --experimental-backends &> /dev/null &
 
 #load theme.toml
 echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
@@ -29,4 +29,7 @@ volctl &
 caffeine &
 nm-applet &
 pamac-tray &
-blueman-applet 
+blueman-applet &
+
+#sets monitor layout, because broke lightdm
+~/.screenlayout/layout.sh
