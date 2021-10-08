@@ -1,4 +1,5 @@
 Dotfiles for my LeftWM setup, requires some hacking on polybar (set the monitors to my outputs) 
+not updated at the moment, as I am currently trying to get awesomewm (Desktop) and sway (Laptop) properly set up
 
 ![28 22:58:44-scrot](https://user-images.githubusercontent.com/74120050/123703346-8daa2780-d864-11eb-9d20-62073c7cebe0.png)
 
